@@ -39,8 +39,7 @@ Escopo da Api Rest
 
 3 - Pai
 
-?? mesmos acessos que os alunos?
-
+mesmos acessos que os alunos.
 
 4 - Criança(Aluno)
 
@@ -69,6 +68,69 @@ ABA DE PONTOS
 - Recompensas resgatadas serão notificadas aos professores para que possam ser entregues. 
 
 
-
+            +--------------+
+            |   Usuário    |
+            +--------------+
+            | - nome       |
+            | - senha      |
+            | - tipo       |
+            +--------------+
+                  /_\
+                   |
+            +--------------+
+            |   Professor  |
+            +--------------+
+            | - designarTarefa()  |
+            | - definirPrazo()    |
+            | - definirDificuldade() |
+            | - definirPontos() |
+            | - corrigirAtividade() |
+            | - adicionarRecompensa() |
+            +--------------+
+                  /_\
+                   |
+            +--------------+
+            |    Aluno     |
+            +--------------+
+            | - monitorarTarefasPendentes() |
+            | - resgatarRecompensas() |
+            | - marcarTarefaConcluida() |
+            | - contatarProfessor() |
+            +--------------+
+                  /_\
+                   |
+            +------------------+
+            |     Atividade    |
+            +------------------+
+            | - descricao       |
+            | - prazo           |
+            | - dificuldade     |
+            | - pontosRecompensa|
+            +------------------+
+            /       |        \
+           /        |         \
+          /         |          \
++---------------+ +----------------+ +---------------+ +----------------+
+|  Português    | |   Matemática   | |   Ciências    | |    História    |
++---------------+ +----------------+ +---------------+ +----------------+
+| - atividades  | | - atividades   | | - atividades  | | - atividades   |
++---------------+ +----------------+ +---------------+ +----------------+
+| - atividades  | | - atividades   | | - atividades  | | - atividades   |
+|  concluídas   | |  concluídas    | |  concluídas   | |  concluídas    |
++---------------+ +----------------+ +---------------+ +----------------+
+            /_\
+             |
+    +------------------+
+    |    Recompensa    |
+    +------------------+
+    | - descricao       |
+    | - pontosNecessarios|
+    +------------------+
+    /       |        \
+   /        |         \
+  /         |          \
++---------------+ +----------------+ +---------------+
+| Recompensa 1  | | Recompensa 2   | | Recompensa 3 |
++---------------+ +----------------+ +---------------+
 
 
