@@ -4,7 +4,7 @@ Escopo da Api Rest
 
 1 - Tela Inicial 
 
-- De inicio haverá uma tela de login com usuário padronizado, exemplo: professores serão prof.(nome e sobrenome), crianças serão aluno.(nome e sobrenome)
+- De inicio haverá uma tela de login com usuário padronizado, exemplo: professores serão prof.(nome e sobrenome), crianças serão aluno.(nome e sobrenome), e os pais serão Pais.(nome e sobrenome)
 
 
 
@@ -12,6 +12,7 @@ Escopo da Api Rest
 
 - O Professor possuem acesso para designar tarefa a criança, o prazo da tarefa, o grau de dificuldade e referente a isso a quantidade de pontos que aquela tarefa vale, ex: tarefas dificeis valem 50, médias 25 e fáceis valem 10. 
 - O professor também possui acesso para corrigir a atividade e adicionar novas recompensas. 
+- O Professor pode abrir chat com os alunos e também com os pais.
 
 
 
@@ -19,10 +20,11 @@ Escopo da Api Rest
 
 mesmos acessos que os alunos.
 
-4 - Criança(Aluno)
+4 - Aluno
 
 - A criança poderá apenas acessar a aba de atividades e de recompensas para visualizá-las. 
 - E Acesso à aba de atividades
+- E poder abrir chat com professor
 
 
 
