@@ -115,4 +115,3 @@ Métodos:
 - notificarRecompensaResgatada(professor: Professor, aluno: Aluno, recompensa: Recompensa)
 
 
-
