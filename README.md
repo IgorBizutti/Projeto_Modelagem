@@ -50,14 +50,17 @@ Métodos:
 
 
 Classe: Usuario
+
 Atributos:
 - nome: string
 - senha: string
+
 Métodos:
 - abrirChat(usuario: Usuario)
  
 
 Classe: Professor (herda de Usuario)
+
 Métodos:
 - designarTarefa(aluno: Aluno, tarefa: Atividade, prazo: string, dificuldade: string)
 - corrigirAtividade(aluno: Aluno, tarefa: Atividade, nota: int)
@@ -67,11 +70,13 @@ Métodos:
 Classe: Pai (herda de Usuario)
 
 Classe: Aluno (herda de Usuario)
+
 Métodos:
 - acessarAtividades()
 - abrirChatProfessor(professor: Professor)
 
 Classe: Atividade
+
 Atributos:
 - materia: string
 - descricao: string
@@ -81,32 +86,40 @@ Atributos:
 - concluida: bool
 
 Classe: Materia
+
 Atributos:
 - nome: string
 - atividades: list[Atividade]
 
 Classe: BarraProgresso
+
 Atributos:
 - tempoRestante: int
 - tempoTotal: int
+
 Métodos:
 - calcularProgresso()
 
 Classe: SistemaPontos
+
 Atributos:
 - pontosDisponiveis: int
+
 Métodos:
 - acumularPontos(pontos: int)
 
 Classe: Recompensa
+
 Atributos:
 - descricao: string
 - pontosNecessarios: int
 
 Classe: Sistema
+
 Atributos:
 - usuarios: list[Usuario]
 - atividadesConcluidas: list[Atividade]
+
 Métodos:
 - login(usuario: string, senha: string)
 - exibirAtividades(aluno: Aluno)
