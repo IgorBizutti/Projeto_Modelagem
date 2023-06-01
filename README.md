@@ -83,7 +83,7 @@ Atributos:
 - prazo: string
 - dificuldade: string
 - pontosRecompensa: int
-- concluida: bool
+- status: bool
 
 Classe: Materia
 
