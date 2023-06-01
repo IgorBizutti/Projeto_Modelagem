@@ -55,7 +55,7 @@ Atributos:
 - senha: string
 Métodos:
 - abrirChat(usuario: Usuario)
-
+ 
 
 Classe: Professor (herda de Usuario)
 Métodos:
