@@ -4,36 +4,21 @@ Escopo da Api Rest
 
 1 - Tela Inicial 
 
-- De inicio haverá uma tela de login com usuário padronizado, exemplo: professores serão prof.(nome e sobrenome), crianças serão aluno.(nome e sobrenome), e os pais serão Pais.(nome e sobrenome)
+- De inicio haverá uma tela de login com usuário padronizado
+
+2 - Responsável
+
+- O Responsável possuí acesso para designar tarefa a criança, o prazo da tarefa, o grau de dificuldade e referente a isso a quantidade de pontos que aquela tarefa vale, ex: tarefas dificeis valem 50, médias 25 e fáceis valem 10. 
 
 
-
-2 - Professor
-
-- O Professor possuem acesso para designar tarefa a criança, o prazo da tarefa, o grau de dificuldade e referente a isso a quantidade de pontos que aquela tarefa vale, ex: tarefas dificeis valem 50, médias 25 e fáceis valem 10. 
-- O professor também possui acesso para corrigir a atividade e adicionar novas recompensas. 
-- O Professor pode abrir chat com os alunos e também com os pais.
-
-
-
-3 - Pai
-- Mesmos acessos que os alunos.
-
-4 - Aluno
+3 - Aluno
 - A criança poderá apenas acessar a aba de atividades e de recompensas para visualizá-las. 
-- E Acesso à aba de atividades
-- E poder abrir chat com professor
-
-
-
 
 ABA DE ATIVIDADES 
 
-- a aba de atividades, onde será dividida por matérias(portugues, matematica, ciencias, historia), cada matéria terá suas atividades, com descrição, prazo, grau de dificuldade e pontos de recompensa referente ao grau de dificuldade.
+- a aba de atividades, com descrição, prazo, grau de dificuldade e pontos de recompensa referente ao grau de dificuldade.
 - haverá um marcador em formato de barra de progresso determinando o tempo restante para o prazo da tarefa. 
 - Na aba de atividades também haverá um setor para atividades ja concluídas.
-
-
 
 ABA DE PONTOS
 
@@ -54,42 +39,26 @@ Classe: Usuario
 Atributos:
 - nome: string
 - senha: string
-
-Métodos:
-- abrirChat(usuario: Usuario)
  
-
-Classe: Professor (herda de Usuario)
+Classe: Responsável (herda de Usuario)
 
 Métodos:
 - designarTarefa(aluno: Aluno, tarefa: Atividade, prazo: string, dificuldade: string)
-- corrigirAtividade(aluno: Aluno, tarefa: Atividade, nota: int)
 - adicionarRecompensa(descricao: string, pontos: int)
-
-
-Classe: Pai (herda de Usuario)
 
 Classe: Aluno (herda de Usuario)
 
 Métodos:
 - acessarAtividades()
-- abrirChatProfessor(professor: Professor)
 
 Classe: Atividade
 
 Atributos:
-- materia: string
 - descricao: string
 - prazo: string
 - dificuldade: string
 - pontosRecompensa: int
 - status: bool
-
-Classe: Materia
-
-Atributos:
-- nome: string
-- atividades: list[Atividade]
 
 Classe: BarraProgresso
 
@@ -125,6 +94,6 @@ Métodos:
 - exibirAtividades(aluno: Aluno)
 - exibirRecompensas(aluno: Aluno)
 - resgatarRecompensa(aluno: Aluno, recompensa: Recompensa)
-- notificarRecompensaResgatada(professor: Professor, aluno: Aluno, recompensa: Recompensa)
+- notificarRecompensaResgatada(responsável: Responsável, aluno: Aluno, recompensa: Recompensa)
 
 
