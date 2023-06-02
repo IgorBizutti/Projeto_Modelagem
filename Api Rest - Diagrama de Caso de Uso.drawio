@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2023-06-02T00:59:46.672Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="V_I_9mlKbH7LSmnjLOyx" version="21.3.7" type="device">
+  <diagram name="Página-1" id="mkver53R3lEImJzBcGJH">
+    <mxGraphModel dx="232" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JsrD_EAaWw55A5boZWqV-1" value="Pai/responsável" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JsrD_EAaWw55A5boZWqV-2" value="Designar tarefa" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JsrD_EAaWw55A5boZWqV-3" value="Adicionar recompensa" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="150" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JsrD_EAaWw55A5boZWqV-4" value="Realizar atividades" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JsrD_EAaWw55A5boZWqV-5" value="Resgatar recompensas" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="250" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JsrD_EAaWw55A5boZWqV-6" value="Exibe atividades" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JsrD_EAaWw55A5boZWqV-7" value="Exibe recompensas" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="350" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JsrD_EAaWw55A5boZWqV-8" value="Sistema" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="320" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JsrD_EAaWw55A5boZWqV-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JsrD_EAaWw55A5boZWqV-1" target="JsrD_EAaWw55A5boZWqV-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="230" as="sourcePoint" />
+            <mxPoint x="180" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsrD_EAaWw55A5boZWqV-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.025;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JsrD_EAaWw55A5boZWqV-1" target="JsrD_EAaWw55A5boZWqV-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="146" as="sourcePoint" />
+            <mxPoint x="150" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsrD_EAaWw55A5boZWqV-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JsrD_EAaWw55A5boZWqV-8" target="JsrD_EAaWw55A5boZWqV-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="75" y="150" as="sourcePoint" />
+            <mxPoint x="150" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsrD_EAaWw55A5boZWqV-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JsrD_EAaWw55A5boZWqV-8" target="JsrD_EAaWw55A5boZWqV-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="75" y="360" as="sourcePoint" />
+            <mxPoint x="150" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsrD_EAaWw55A5boZWqV-14" value="Criança" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JsrD_EAaWw55A5boZWqV-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JsrD_EAaWw55A5boZWqV-14" target="JsrD_EAaWw55A5boZWqV-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="340" as="sourcePoint" />
+            <mxPoint x="210" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsrD_EAaWw55A5boZWqV-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JsrD_EAaWw55A5boZWqV-14" target="JsrD_EAaWw55A5boZWqV-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="230" as="sourcePoint" />
+            <mxPoint x="230" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
