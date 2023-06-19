@@ -11,7 +11,7 @@ Escopo da Api Rest
 - O Responsável possuí acesso para designar tarefa a criança, o prazo da tarefa, o grau de dificuldade e referente a isso a quantidade de pontos que aquela tarefa vale, ex: tarefas dificeis valem 50, médias 25 e fáceis valem 10. 
 
 
-3 - Aluno
+3 - Criança
 - A criança poderá apenas acessar a aba de atividades e de recompensas para visualizá-las. 
 
 ABA DE ATIVIDADES 
