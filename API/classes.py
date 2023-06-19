@@ -63,8 +63,13 @@ class SistemaPontos:
         self.pontosDisponiveis = pontosDisponiveis
 
     def acumularPontos(self, pontos):
-        # Código para acumular pontos no sistema
-        pass
+        # Verifica se a quantidade de pontos é um valor positivo
+        if pontos > 0:
+            # Adiciona os pontos à quantidade de pontos disponíveis no sistema
+            self.pontosDisponiveis += pontos
+            print(f"Pontos acumulados: {pontos}")
+        else:
+            print("A quantidade de pontos deve ser um valor positivo.")
 
 class Recompensa:
     def __init__(self, descricao, pontosNecessarios):
