@@ -25,15 +25,12 @@ class TestClasses(unittest.TestCase):
         self.assertEqual(self.recompensa.pontosNecessarios, 20)
     
     def test_designar_tarefa(self):
-        # Criação dos objetos
         aluno = Aluno("João", "senha_aluno")
         responsavel = Responsavel("Maria", "senha_responsavel")
         tarefa = Atividade("Fazer exercícios", "2023-05-30", "Média", 10, False)
 
-        # Designar tarefa ao aluno
         responsavel.designarTarefa(aluno, tarefa, "2023-05-30", "Média")
 
-        # Verificar se a tarefa foi atribuída corretamente
         self.assertIn(tarefa, aluno.atividades)
         self.assertEqual(aluno.atividades[0].descricao, "Fazer exercícios")
         self.assertEqual(aluno.atividades[0].prazo, "2023-05-30")
@@ -47,15 +44,12 @@ class TestClasses(unittest.TestCase):
         self.assertEqual(self.atividade, self.aluno.atividades[0])
     
     def test_adicionar_recompensa(self):
-        # Criação dos objetos
         aluno = Aluno("João", "senha_aluno")
         responsavel = Responsavel("Maria", "senha_responsavel")
         recompensa = Recompensa("Brinquedo", 20)
 
-        # Adicionar recompensa ao aluno
         responsavel.adicionarRecompensa(aluno, recompensa.descricao, recompensa.pontosNecessarios)
 
-        # Verificar se a recompensa foi adicionada corretamente
         self.assertIn(recompensa.descricao, [rec.descricao for rec in aluno.recompensas])
         self.assertEqual(aluno.recompensas[0].descricao, "Brinquedo")
         self.assertEqual(aluno.recompensas[0].pontosNecessarios, 20)
